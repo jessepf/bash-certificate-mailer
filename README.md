@@ -50,3 +50,14 @@ done < "$FILE"
 This code generates a temporary certificate in the folder Certificates notice that parameter “-annotate +100+318” in line 6 give s x and y coordinates of beginning of NAME text, and similarly in line 7 for COLLEGE text.
 
 Certificate template is placed in the same folder as the script, called Certificate.png. Generated certificates will be placed in subfolder Certificates in  a temporary file “Certificate.png”.
+
+## Notes
+
+* Leave thunderbird closed while running the script else the script fails. (Script will not wait for mail to be send before generating next mail).
+* It’s imperfect enough, if interested, please make a better, neater, simpler app (I am lazy to! :D) so that the world can run it in few clicks.
+* Instead of thuderbird, you can automate mailing using command line utilities like “mail” or “msmtp” etc.
+
+
+## Why post it here? 
+
+Back then a quick search did not return any good/free results. I haven't even added a line since then, but I hope it benefits someone.
